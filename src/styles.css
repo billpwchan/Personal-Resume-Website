@@ -1,1 +1,131 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #E4E4E4;
+}
+
+::selection {
+  color: #fff;
+  background: #CC4646;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #CC4646;
+}
+
+p {
+  color: #858585;
+  line-height: 22px;
+}
+
+.white {
+  background: #fff;
+}
+
+.pDark p {
+  color: #6D6D6D;
+}
+
+.pDark h3 {
+  color: #BEBEBE;
+}
+
+.btn,
+.form-control,
+.team-socials i {
+  border-radius: 5px !important;
+}
+
+.button-outline {
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  color: #fff;
+  padding: 10px 25px;
+  border: 2px solid #fff;
+  border-radius: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.button-outline:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.35);
+}
+
+a {
+  color: #CC4646;
+  text-decoration: none;
+  text-shadow: none;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+a:hover {
+  color: #DF3927;
+  text-decoration: none;
+}
+
+.btn {
+  border: 0px;
+  border-radius: 0px;
+}
+
+.btn:hover {
+  background: #E24040;
+}
+
+.btn-primary {
+  background: #CC4646;
+}
+
+.form-control {
+  border-radius: 0px;
+}
+
+.mrgn30 {
+  margin: 30px 0;
+}
+
+.copyright {
+  color: #6D6D6D;
+  background: #E9E9E9;
+  padding: 20px 0;
+}
+
+#top {
+  position: relative;
+}
+
+.topHome {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 5;
+  background: #CC4646;
+}
+
+.topHome .fa-2x {
+  font-size: 20px;
+  color: #fff;
+  margin: 4px;
+}
