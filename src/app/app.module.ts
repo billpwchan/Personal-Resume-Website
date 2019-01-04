@@ -6,6 +6,7 @@ import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { ModalModule } from 'ngx-bootstrap/modal';
 
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { NgxPageScrollModule } from 'ngx-page-scroll';
 
 import { AppComponent } from './app.component';
 
@@ -18,7 +19,8 @@ import { AppComponent } from './app.component';
     BsDropdownModule.forRoot(),
     TooltipModule.forRoot(),
     ModalModule.forRoot(),
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    NgxPageScrollModule
   ],
   providers: [],
   bootstrap: [AppComponent]

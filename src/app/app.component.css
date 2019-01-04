@@ -304,12 +304,12 @@
   background: #fff;
 }
 
-#aboutUs .txtHead {
+#aboutMe .txtHead {
   background: #fff;
   padding: 20px 10px;
 }
 
-#aboutUs .txtHead .fa {
+#aboutMe .txtHead .fa {
   font-size: 58px;
   color: #5E5E5E;
 }
@@ -1059,4 +1059,53 @@ footer {
   -ms-user-select: none;
   user-select: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+.ScrollingMouse {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12rem 2rem;
+  color: white;
+}
+
+
+.mouse {
+  max-width: 2.5rem;
+  width: 100%;
+  height: auto;
+}
+
+.scroll {
+  animation-name: scroll;
+  animation-duration: 1.5s;
+  animation-timing-function: cubic-bezier(0.650, -0.550, 0.250, 1.500);
+  animation-iteration-count: infinite;
+  transform-origin: 50% 20.5px;
+  will-change: transform, opacity;
+  opacity: 1;
+}
+
+.scroll-link-mouse {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes scroll {
+
+  0%,
+  20% {
+    transform: translateY(0) scaleY(1);
+  }
+
+  100% {
+    transform: translateY(36px) scaleY(2);
+    opacity: 0;
+  }
+
 }
