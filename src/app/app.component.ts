@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { PageScrollConfig } from 'ngx-page-scroll';
+import { SwiperModule, SwiperConfigInterface } from 'ngx-swiper-wrapper';
 
 @Component({
   selector: 'app-root',
@@ -7,11 +8,31 @@ import { PageScrollConfig } from 'ngx-page-scroll';
   styleUrls: ['./app.component.css', './da-slide/css/style.css', './fontawesome/css/all.css']
 })
 export class AppComponent {
+  public slides = [
+    {
+      'year': '2016',
+      'title': 'Title',
+      'text': 'Text'
+    }
+  ];
+
+  public config: SwiperConfigInterface = {
+    direction: 'vertical',
+    slidesPerView: 1,
+    observer: true,
+    keyboard: true,
+    mousewheel: false,
+    scrollbar: false,
+    navigation: true,
+    pagination: false,
+    loop: false,
+    speed: 1600,
+  };
+
   title = 'Bill\'s Resume';
   introHeader = 'I develop website, software, and studying Machine Learning.\n Yes, I love Technology.';
   introContent = 'Experienced Quality Assurance and Software Engineer \
-  with a demonstrated history of working in the Information Technology Industry. \
-  Skilled in Java, MySQL, Python, Full-Stack Web Development with Angular, etc. Currently pursuing \
+  with a demonstrated history of working in the Information Technology Industry. Currently pursuing \
   a Dual Degree Program (BEng in Computer Science & BBA Business Management) from the Hong Kong University \
   of Science and Technology.';
 
