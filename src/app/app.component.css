@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100");
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+/* start welcome animation */
 .header {
   position: fixed;
   width: 100%;
@@ -202,7 +207,7 @@
   position: relative;
   padding: 0px;
   box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
-  /*background: url("../images/banner-bg.jpg") no-repeat;*/
+  background: url("../assets/images/dark.jpg");
   background-size: 100% 100%;
   background-size: cover;
   margin-top: 60px;
@@ -297,6 +302,280 @@
 .secPad {
   padding: 60px 0;
 }
+
+.marker-container {
+  background-color: #232323;
+  background-image: url('../assets/images/dark.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.marker-container svg {
+  width: 100%;
+  height: auto;
+  fill: none;
+  stroke: white;
+  stroke-width: 4;
+}
+
+.marker-container svg tspan>tspan {
+  stroke-dasharray: 1500;
+  stroke-dashoffset: -1500;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(1) {
+  animation: draw 300ms 150ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(2) {
+  animation: draw 300ms 300ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(3) {
+  animation: draw 300ms 450ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(4) {
+  animation: draw 300ms 600ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(5) {
+  animation: draw 300ms 750ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(6) {
+  animation: draw 300ms 900ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(7) {
+  animation: draw 300ms 1050ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(8) {
+  animation: draw 300ms 1200ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(9) {
+  animation: draw 300ms 1350ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(10) {
+  animation: draw 300ms 1500ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(11) {
+  animation: draw 300ms 1650ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(12) {
+  animation: draw 300ms 1800ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(13) {
+  animation: draw 300ms 1950ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(14) {
+  animation: draw 300ms 2100ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(15) {
+  animation: draw 300ms 2250ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(16) {
+  animation: draw 300ms 2400ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(17) {
+  animation: draw 300ms 2550ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(18) {
+  animation: draw 300ms 2700ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(19) {
+  animation: draw 300ms 2850ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(20) {
+  animation: draw 300ms 3000ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(21) {
+  animation: draw 300ms 3150ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(22) {
+  animation: draw 300ms 3300ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(23) {
+  animation: draw 300ms 3450ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(24) {
+  animation: draw 300ms 3600ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(25) {
+  animation: draw 300ms 3750ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(26) {
+  animation: draw 300ms 3900ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(27) {
+  animation: draw 300ms 4050ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(28) {
+  animation: draw 300ms 4200ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(29) {
+  animation: draw 300ms 4350ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(30) {
+  animation: draw 300ms 4500ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(31) {
+  animation: draw 300ms 4650ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(32) {
+  animation: draw 300ms 4800ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(33) {
+  animation: draw 300ms 4950ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(34) {
+  animation: draw 300ms 5100ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(35) {
+  animation: draw 300ms 5250ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(36) {
+  animation: draw 300ms 5400ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(37) {
+  animation: draw 300ms 5550ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(38) {
+  animation: draw 300ms 5700ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(39) {
+  animation: draw 300ms 5850ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(40) {
+  animation: draw 300ms 6000ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(41) {
+  animation: draw 300ms 6150ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(42) {
+  animation: draw 300ms 6300ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(43) {
+  animation: draw 300ms 6450ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(44) {
+  animation: draw 300ms 6600ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(45) {
+  animation: draw 300ms 6750ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(46) {
+  animation: draw 300ms 6900ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(47) {
+  animation: draw 300ms 7050ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(48) {
+  animation: draw 300ms 7200ms forwards;
+}
+
+.marker-container svg tspan>tspan:nth-of-type(49) {
+  animation: draw 300ms 7350ms forwards;
+}
+
+@keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.mask-container {
+  position: relative;
+  z-index: 0;
+  background-color: #ededed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.pulse {
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 30rem;
+}
+
+.pulse circle {
+  fill: #ff5154;
+  transform: scale(0);
+  opacity: 0;
+  transform-origin: 50% 50%;
+  animation: pulse 2s cubic-bezier(0.5, 0.5, 0, 1);
+}
+
+.pulse circle:nth-child(2) {
+  fill: #7fc6a4;
+  animation: pulse 2s 0.75s cubic-bezier(0.5, 0.5, 0, 1);
+}
+
+.pulse circle:nth-child(3) {
+  fill: #e5f77d;
+  animation: pulse 2s 1.5s cubic-bezier(0.5, 0.5, 0, 1);
+}
+
+@keyframes pulse {
+  25% {
+    opacity: 0.4;
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
 
 /*Intro Content*/
 #introText {
@@ -661,7 +940,7 @@ nav#filter a {
   width: 100%;
   left: 0;
   top: 0;
-  color: rgba(220, 220, 220);
+  color: rgb(220, 220, 220);
 }
 
 .fancybox-overlay {
@@ -1120,7 +1399,6 @@ footer {
   flex-direction: column;
 }
 
-
 .timeline-title {
   font-size: 38px;
   color: #ffffff;
@@ -1377,4 +1655,108 @@ footer {
   .timeline-slider .swiper-slide-content {
     right: 25%;
   }
+}
+
+
+.button-container-2 {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  margin-right: auto;
+  margin-top: 7vh;
+  overflow: hidden;
+  border: 1px solid #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  transition: 0.5s;
+  letter-spacing: 1px;
+}
+
+.button-container-2 button {
+  width: 101%;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background: #000;
+  -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
+  mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
+  -webkit-mask-size: 3000% 100%;
+  mask-size: 3000% 100%;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  -webkit-animation: ani2 0.7s steps(29) forwards;
+  animation: ani2 0.7s steps(29) forwards;
+}
+
+.button-container-2 button:hover {
+  -webkit-animation: ani 0.7s steps(29) forwards;
+  animation: ani 0.7s steps(29) forwards;
+}
+
+.mas {
+  position: absolute;
+  color: #000;
+  text-align: center;
+  width: 101%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  position: absolute;
+  font-size: 20px;
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+@-webkit-keyframes ani {
+  from {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+
+  to {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+}
+
+@keyframes ani {
+  from {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+
+  to {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+}
+
+@-webkit-keyframes ani2 {
+  from {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+
+  to {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+}
+
+@keyframes ani2 {
+  from {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+
+  to {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+}
+
+a {
+  color: #00ff95;
 }

@@ -11,6 +11,10 @@ import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { SwiperConfigInterface, SwiperModule, SWIPER_CONFIG } from 'ngx-swiper-wrapper';
 import { TeximateModule } from 'ngx-teximate';
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
+import { NotFoundComponentComponent } from './not-found-component/not-found-component.component';
+import { OwlModule } from 'ngx-owl-carousel';
+import { NguCarouselModule } from '@ngu/carousel';
 
 
 
@@ -22,7 +26,8 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NotFoundComponentComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +40,10 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     SwiperModule,
     TeximateModule,
     GalleryModule,
-    LightboxModule
+    LightboxModule,
+    AppRoutingModule,
+    OwlModule,
+    NguCarouselModule
   ],
   providers: [
     {

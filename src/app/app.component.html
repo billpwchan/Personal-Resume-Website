@@ -32,37 +32,90 @@
 <div id="#top"></div>
 <section id="home">
   <div class="banner-container">
-    <img src="../assets/images/banner-bg.jpg" alt="banner" />
-    <div class="container banner-content">
-      <div id="da-slider" class="da-slider">
-        <div class="da-slide">
-          <h2>Webdesigner</h2>
-          <teximate [text]="text" [enter]="enterAnimation"></teximate>
-          <div class="da-img"></div>
-        </div>
-        <div class="da-slide">
-          <h2>UX/UI Developer</h2>
-          <p>I develop website using Bootstrap front-end framework..</p>
-          <div class="da-img"></div>
-        </div>
-        <div class="da-slide">
-          <h2>HTML5/CSS3</h2>
-          <p>HTML5 is a markup language used for structuring and presenting Web.</p>
-          <div class="da-img"></div>
-        </div>
-        <div class="da-slide">
-          <h2>JavaScript/jQuery</h2>
-          <p>jQuery: Write Less, Do More...</p>
-          <div class="da-img"></div>
-        </div>
-        <nav class="da-arrows">
-          <span class="da-arrows-prev"></span>
-          <span class="da-arrows-next"></span>
-        </nav>
-      </div>
+    <!-- <img src="../assets/images/banner-bg.jpg" alt="banner" /> -->
+    <div class="marker-container">
+      <svg viewBox="0 0 2000 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g stroke="none" fill="none" fill-rule="evenodd" fill-opacity="0">
+          <text id="@BillChan" stroke="#CC4646" fill="#645F5A" font-weight="normal" font-family="PermanentMarker-Regular, Permanent Marker"
+            font-size="144">
+            <tspan x="3" y="109">
+              <tspan>@</tspan>
+              <tspan>B</tspan>
+              <tspan>i</tspan>
+              <tspan>l</tspan>
+              <tspan>l </tspan>
+              <tspan>C</tspan>
+              <tspan>H</tspan>
+              <tspan>A</tspan>
+              <tspan>N</tspan>
+              <tspan>:</tspan>
+            </tspan>
+          </text>
+        </g>
+        <g stroke="none" fill="none" fill-rule="evenodd" fill-opacity="0">
+          <text id="@BillChan" stroke="#CC4646" fill="#645F5A" font-weight="normal" font-family="PermanentMarker-Regular, Permanent Marker"
+            font-size="80">
+            <tspan x="3" y="300">
+              <tspan>A </tspan>
+              <tspan>S</tspan>
+              <tspan>o</tspan>
+              <tspan>f</tspan>
+              <tspan>t</tspan>
+              <tspan>w</tspan>
+              <tspan>a</tspan>
+              <tspan>r</tspan>
+              <tspan>e </tspan>
+              <tspan>E</tspan>
+              <tspan>n</tspan>
+              <tspan>g</tspan>
+              <tspan>i</tspan>
+              <tspan>n</tspan>
+              <tspan>e</tspan>
+              <tspan>e</tspan>
+              <tspan>r, </tspan>
+              <tspan>A </tspan>
+              <tspan>W</tspan>
+              <tspan>e</tspan>
+              <tspan>b </tspan>
+              <tspan>D</tspan>
+              <tspan>e</tspan>
+              <tspan>v</tspan>
+              <tspan>l</tspan>
+              <tspan>o</tspan>
+              <tspan>p</tspan>
+              <tspan>e</tspan>
+              <tspan>r, </tspan>
+              <tspan>A </tspan>
+              <tspan>P</tspan>
+              <tspan>e</tspan>
+              <tspan>r</tspan>
+              <tspan>s</tspan>
+              <tspan>o</tspan>
+              <tspan>n </tspan>
+              <tspan>w</tspan>
+              <tspan>i</tspan>
+              <tspan>t</tspan>
+              <tspan>h </tspan>
+              <tspan>P</tspan>
+              <tspan>a</tspan>
+              <tspan>s</tspan>
+              <tspan>s</tspan>
+              <tspan>i</tspan>
+              <tspan>o</tspan>
+              <tspan>n</tspan>
+            </tspan>
+          </text>
+        </g>
+      </svg>
+      <svg class="pulse" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <circle id="Oval" cx="512" cy="512" r="512"></circle>
+        <circle id="Oval" cx="512" cy="512" r="512"></circle>
+        <circle id="Oval" cx="512" cy="512" r="512"></circle>
+      </svg>
     </div>
+
     <a class="scroll-link-mouse" pageScroll href="#aboutMe">
-      <svg class="mouse" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 130" preserveAspectRatio="xMidYMid meet">
+      <svg class="mouse" viewBox="0 0 76 130" preserveAspectRatio="xMidYMid meet">
         <g fill="none" fill-rule="evenodd">
           <rect width="70" height="118" x="1.5" y="1.5" stroke="#FFF" stroke-width="3" rx="36" />
           <circle class="scroll" cx="36.5" cy="31.5" r="4.5" fill="#FFF" />
@@ -468,7 +521,10 @@
             <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…"
               title="Please enter your message (at least 10 characters)"></textarea>
           </div>
-          <button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit">Submit</button>
+          <div class="button-container-2">
+            <span class="mas">Submit</span>
+            <button name="submit" type="button" name="Hover" id="submit">Submit</button>
+          </div>
           <div class="result"></div>
         </div>
       </form>
@@ -480,9 +536,9 @@
           Hong Kong, China
           <br>
         </address>
-        <h4>Phone:</h4>
+        <h4>Email:</h4>
         <address>
-          +852 6512 1998<br>
+          billpwchan@hotmail.com<br>
         </address>
       </div>
     </div>
