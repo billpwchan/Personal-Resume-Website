@@ -1215,12 +1215,14 @@ footer {
 .timeline-slider .swiper-slide-active .timeline-title {
   opacity: 1;
   transform: translate3d(0, 0, 0);
+  white-space: pre-wrap;
   transition: 0.4s ease 1.7s;
 }
 
 .timeline-slider .swiper-slide-active .timeline-text {
   opacity: 1;
   transform: translate3d(0, 0, 0);
+  white-space: pre-wrap;
   color: #e5e5e5;
   transition: 0.4s ease 1.8s;
 }
@@ -1322,8 +1324,8 @@ footer {
     top: 50%;
     transform: translateY(-50%);
     width: 310px;
-    font-size: 11px;
-    text-align: right;
+    font-size: 15px;
+    text-align: left;
   }
 
   .timeline-slider .swiper-slide .timeline-year {
@@ -1332,7 +1334,7 @@ footer {
   }
 
   .timeline-slider .swiper-slide .timeline-title {
-    font-size: 46px;
+    font-size: 30px;
     margin: 0;
   }
 

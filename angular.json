@@ -26,14 +26,6 @@
               "node_modules/font-awesome/css/font-awesome.css"
             ],
             "scripts": [
-              "src/app/da-slide/js/modernizr-latest.js",
-              "src/app/da-slide/js/jquery.isotope.min.js",
-              "src/app/da-slide/js/fancybox/jquery.fancybox.pack.js",
-              "src/app/da-slide/js/jquery.nav.js",
-              "src/app/da-slide/js/jquery.cslider.js",
-              "src/app/da-slide/js/custom.js",
-              "src/app/da-slide/js/owl-carousel/owl.carousel.js",
-              "src/app/da-slide/js/jquery-1.8.2.min.js",
               "src/app/da-slide/js/bootstrap.min.js"
             ]
           },
@@ -89,14 +81,6 @@
               "node_modules/font-awesome/css/font-awesome.css"
             ],
             "scripts": [
-              "src/app/da-slide/js/modernizr-latest.js",
-              "src/app/da-slide/js/jquery.isotope.min.js",
-              "src/app/da-slide/js/fancybox/jquery.fancybox.pack.js",
-              "src/app/da-slide/js/jquery.nav.js",
-              "src/app/da-slide/js/jquery.cslider.js",
-              "src/app/da-slide/js/custom.js",
-              "src/app/da-slide/js/owl-carousel/owl.carousel.js",
-              "src/app/da-slide/js/jquery-1.8.2.min.js",
               "src/app/da-slide/js/bootstrap.min.js"
             ],
             "assets": [
