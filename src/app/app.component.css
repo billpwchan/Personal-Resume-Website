@@ -877,6 +877,10 @@
   margin-bottom: 30px;
 }
 
+ngx-gallery /deep/ .ngx-gallery-image {
+  z-index: 0 !important;
+ }
+
 #portfolio {
   background: rgb(24, 24, 24);
 }
@@ -1656,7 +1660,6 @@ footer {
     right: 25%;
   }
 }
-
 
 .button-container-2 {
   position: relative;

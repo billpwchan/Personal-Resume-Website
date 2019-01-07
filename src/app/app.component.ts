@@ -3,14 +3,14 @@ import { PageScrollConfig } from 'ngx-page-scroll';
 import { SwiperModule, SwiperConfigInterface } from 'ngx-swiper-wrapper';
 import { TextAnimation } from 'ngx-teximate';
 import { fadeInDown } from 'ng-animate';
-import { GalleryItem, ImageItem } from '@ngx-gallery/core';
 import { SwiperDirective } from 'ngx-swiper-wrapper';
+import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation } from 'ngx-gallery';
 
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css', './da-slide/css/style.css', './fontawesome/css/all.css']
+  styleUrls: ['./app.component.css', './fontawesome/css/all.css']
 })
 export class AppComponent implements OnInit, AfterViewInit {
   text = 'SDJFLJSDLJFLKSDJLFSKL';
@@ -112,10 +112,45 @@ export class AppComponent implements OnInit, AfterViewInit {
     };
   }
 
-  ngOnInit() {
+  galleryOptions: NgxGalleryOptions[];
+  galleryImages: NgxGalleryImage[];
+
+  ngOnInit(): void {
+    this.galleryOptions = [
+      {
+        width: '100%',
+        height: '600px',
+        thumbnailsColumns: 4,
+        imageAnimation: 'zoom'
+      },
+      // max-width 800
+      {
+        breakpoint: 800,
+        width: '100%',
+        height: '600px',
+        imagePercent: 80,
+        thumbnailsPercent: 20,
+        thumbnailsMargin: 20,
+        thumbnailMargin: 20
+      },
+      // max-width 400
+      {
+        breakpoint: 400,
+        preview: false
+      }
+    ];
+
+    this.galleryImages = [];
+    for (let index = 1; index < 38; index++) {
+      this.galleryImages.push({
+        small: '../assets/images/portfolio/img-' + index.toString() + '.jpg',
+        medium: '../assets/images/portfolio/img-' + index.toString() + '.jpg',
+        big: '../assets/images/portfolio/img-' + index.toString() + '.jpg'
+      });
+    }
   }
 
   ngAfterViewInit() {
-    this.swiperView.startAutoplay();
+    // this.swiperView.startAutoplay();
   }
 }

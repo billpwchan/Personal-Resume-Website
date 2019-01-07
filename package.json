@@ -32,6 +32,7 @@
     "jquery": "^3.3.1",
     "ng-animate": "^0.3.4",
     "ngx-bootstrap": "^3.1.4",
+    "ngx-gallery": "^5.9.1",
     "ngx-owl-carousel": "^2.0.7",
     "ngx-page-scroll": "^5.0.1",
     "ngx-swiper-wrapper": "^7.1.1",
